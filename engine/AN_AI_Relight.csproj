@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <OutputType>Exe</OutputType>
+
+    <TargetFramework>net8.0-windows</TargetFramework>
+
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+    <AssemblyName>AN_AI_Relight</AssemblyName>
+
+    <RootNamespace>ANAIRelight</RootNamespace>
+
+    <Nullable>enable</Nullable>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <SelfContained>true</SelfContained>
+
+    <PublishSingleFile>true</PublishSingleFile>
+
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+
+  </PropertyGroup>
+
+</Project>
