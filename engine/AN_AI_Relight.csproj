@@ -1,9 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-
     <OutputType>Exe</OutputType>
 
     <TargetFramework>net8.0-windows</TargetFramework>
@@ -12,7 +9,7 @@
 
     <AssemblyName>AN_AI_Relight</AssemblyName>
 
-    <RootNamespace>ANAIRelight</RootNamespace>
+    <RootNamespace>ANAI_Relight</RootNamespace>
 
     <Nullable>enable</Nullable>
 
