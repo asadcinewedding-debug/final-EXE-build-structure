@@ -1,0 +1,35 @@
+name: Build AN AI Relight V6 Installer
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  installer:
+    runs-on: windows-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+
+    - name: Download Inno Setup
+      run: |
+        choco install innosetup -y
+
+
+    - name: Build Installer
+      run: |
+        mkdir installer_output
+
+        iscc installer/setup.iss
+
+
+    - name: Upload Installer
+      uses: actions/upload-artifact@v4
+      with:
+        name: AN_AI_Relight_V6_Setup
+        path: installer_output/*.exe
